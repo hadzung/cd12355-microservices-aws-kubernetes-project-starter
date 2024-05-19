@@ -6,4 +6,4 @@ Github repository: https://github.com/hadzung/cd12355-microservices-aws-kubernet
 
 ### How to deploy new build 
 1. Run command **kubectl rollout restart deployment/coworking**
-   This command will rollout out new pods with latest code changes.
+This command will rollout out new pods with latest code changes.
