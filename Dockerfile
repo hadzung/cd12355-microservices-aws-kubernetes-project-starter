@@ -4,6 +4,6 @@ WORKDIR /app
 RUN apt -y update
 COPY analytics/* ./
 RUN pip install -r requirements.txt
-
+RUN echo "Hello world"
 EXPOSE 5153
 CMD [ "python", "./app.py" ]
